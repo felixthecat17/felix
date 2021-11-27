@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Countdown Timer</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+	<select id="s" onchange="start()">
+		<option value="newyear">New Years Eve</option>
+		<option value="xmas">Christmas</option>
+		<option value="d_bday">Diana's Birthday</option>
+		<option value="f_bday">Felix's Birthday</option>
+	</select>
+	<h1 id="title">New Years Eve</h1>
+	<div class="countdown-container">
+		<div class="day-c">
+			<p class="big-text" id="day">0</p>
+			<span>Day</span>
+		</div>
+		<div class="hour-c">
+			<p class="big-text" id="hour">0</p>
+			<span>Hours</span>
+		</div>
+		<div class="min-c">
+			<p class="big-text" id="min">0</p>
+			<span>Minutes</span>
+		</div>
+		<div class="sec-c">
+			<p class="big-text" id="sec">0</p>
+			<span>Seconds</span>
+		</div>
+	</div>
+</body>
+</html>
